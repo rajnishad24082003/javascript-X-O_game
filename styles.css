@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.samepro{
+    border: 1px solid black;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa{
+    padding: 0;
+    font-size: 3rem;
+}
+
+.fa-times{
+    color: #32CD32;
+}
+.fa-circle-o{
+    color: #FF2400;
+}
+.block1{
+    border-top: none;
+    border-left: none;
+}
+.block2{
+    border-top: none;
+}
+.block3{
+    border-top: none;
+    border-right: none;
+}
+.block4{
+    border-left: none;
+}
+.block6{
+    border-right: none;
+}
+.block7{
+    border-bottom: none;
+    border-left: none;
+}
+.block8{
+    border-bottom: none;
+}
+.block9{
+    border-bottom: none;
+    border-right: none;
+}
+.uppercon{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.players{
+    margin-top: 2rem;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+body{
+    overflow: hidden;
+}
+.h3player{
+    color: rgb(95, 95, 95);
+    font-family: cursive;
+}
