@@ -10,6 +10,7 @@ let block9 = document.getElementsByClassName("block9")[0];
 let maingrid = document.getElementsByClassName("main")[0];
 let player1count = document.getElementsByClassName("h5score1")[0];
 let player2count = document.getElementsByClassName("h5score2")[0];
+let sound = document.getElementById("sound")
 let won1 = 0;
 let won2 = 0;
 
@@ -280,7 +281,9 @@ maingrid.addEventListener("click",()=>{
 {
 alert("no possible play's");
 reset_fun();
-}})
+}
+sound.play();
+})
 
 function reset_fun(){
     if(block1.hasChildNodes())

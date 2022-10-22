@@ -51,6 +51,7 @@
 
 .fa-times{
     color: #32CD32;
+    text-shadow: 5px 5px 5px 5px orange;
 }
 .fa-circle-o{
     color: #FF2400;
